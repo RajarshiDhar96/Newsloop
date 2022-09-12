@@ -66,7 +66,7 @@ function LandingPage() {
             <div className={`w-1/2 px-10 space-y-5 sm:w-screen ${(showLoginForm || showRegisterForm)&& 'sm:hidden'}`}>
                 <h1><b className='text-[#0555f5] text-8xl sm:text-6xl'>News</b><b className='text-[red] text-8xl  sm:text-6xl'>Loop</b></h1>
                 <p className='text-lg my-10 text-white'>
-                    NewsLoop is a news app that selects latest and best news from multiple
+                    NewsLoop is a news application that selects latest and best news from multiple
                     national and international sources and summarises them to present in a short
                     and crisp 60 words or less format.
                 </p>
