@@ -41,9 +41,11 @@ function NewsDesc()
            {loading?(<Spinner />):(
                 <div className='p-5'>
                     {/* <h1>{newsItem.title}</h1> */}
-                    <h1 className='my-3 text-2xl font-semibold'>{newsItem!==null && newsItem.title}</h1>
+                    <h1 className='my-3 text-3xl font-semibold text-[black] bg-[yellow]'>{newsItem!==null && newsItem.title}</h1>
                     <hr/>
+                   
                     {newsItem!==null && ReactHtmlParser(draftToHtml(JSON.parse(newsItem.content)))}
+                    
                 </div>
 
            )}

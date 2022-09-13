@@ -56,9 +56,9 @@ function HomePage() {
 
           {newsItems.filter((item) => item.title.toLowerCase().includes(searchText.toLowerCase())).map((item) => {
 
-            return <div className='shadow-md p-3 border cursor-pointer' onClick={() => navigate(`/newsdesc/${item._id}`)}>
+            return <div className='shadow-xl  p-3 border cursor-pointer' onClick={() => navigate(`/newsdesc/${item._id}`)}>
 
-              <h1 className='text-primary text-lg font-semibold'>{item.title} </h1>
+              <h1 className='text-primary text-lg font-bold text-[black]'>{item.title} </h1>
 
               <p>{item.description}</p>
               

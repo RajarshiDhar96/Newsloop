@@ -15,7 +15,7 @@ function Layout(props) {
                 <div className='header bg-primary h-20 w-full flex items-center justify-between'>
                     <HiOutlineMenuAlt1
                         onClick={()=>setShowSideBar(!showSideBar)} 
-                        color='yellow' 
+                        color='white' 
                         size={40} 
                         className='cursor-pointer' 
                     />
