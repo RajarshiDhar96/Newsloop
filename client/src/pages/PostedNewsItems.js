@@ -75,7 +75,7 @@ function PostedNewsItems() {
                                     <td className='border-2  border-gray-500 p-2'>{item.createdAt.slice(0, 10)}</td>
                                     <td className='border-2  border-gray-500 p-2 items-center'>
                                         <div className='flex justify-end space-x-5 pr-5 mt-5 '>
-                                            <button className='px-5 py-1 bg-red-700 rounded text-sm text-white' onClick={()=>deleteItem(item._id)}>Delete</button>
+                                            <button className='px-5 py-1 bg-red-600 rounded text-sm text-white' onClick={()=>deleteItem(item._id)}>Delete</button>
                                             <button className='px-5 py-1 bg-green-700 rounded text-sm text-white o' onClick={() => navigate(`/edit/${item._id}`)}>Edit</button>
                                         </div>
                                     </td>
